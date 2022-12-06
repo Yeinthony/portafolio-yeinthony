@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Inicio.css'
 import '../styles/Boton.css'
-import imagen from '../imagenes/yeinthony2R.png';
 
 function WratingMachine(text = '', tiempo=200, idMaquinaEscribir=''){
     const $maquina = document.getElementById(idMaquinaEscribir)
@@ -25,7 +24,7 @@ function WratingMachine(text = '', tiempo=200, idMaquinaEscribir=''){
   });
   
 
-function Inicio() {
+function Inicio( {imagen, nombre, especialidad} ) {
     return(
         <section id="inicio" className="inicio">
             <div className="imgPortada">
@@ -34,8 +33,8 @@ function Inicio() {
             <div className="titulo">
                 <h3>Hola, soy</h3>
                 <span className="mayor-que">{'> '}</span>
-                <span id="maquina-escribir"> Yeinthony</span>
-                <h4>Full Stack Developer</h4>
+                <span id="maquina-escribir">{nombre}</span>
+                <h4>{especialidad}</h4>
                 <a href="#sobre-mi" className="btn">SOBRE MI</a>
             </div>
         </section>

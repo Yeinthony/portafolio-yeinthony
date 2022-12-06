@@ -1,0 +1,165 @@
+.inicio{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;left: 0;
+    z-index: 30;
+    background-color: var(--gris);
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{  
+    width: 50%;
+    padding: 2rem;
+}
+
+.titulo h3{
+    font-size: 3rem;
+    font-weight: normal;
+    color: var(--blanco);
+}
+
+span{
+    color: var(--blanco);
+    font-size: 7rem;
+    font-weight: bolder;
+}
+
+#maquina-escribir{
+    color: var(--azulClaro);
+    border-right: 10px solid var(--blanco);
+}
+
+.titulo h4{
+    font-size: 3.5rem;
+    font-weight: normal;
+    font-stretch: 5%;
+    color: var(--grisClaro);
+    margin-bottom: 5rem;
+}
+
+.imgPortada{
+    background-image: url("../imagenes/mancha.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imgPortada img{
+    width: 45rem;
+}
+
+@media(max-width:820px){
+
+    .titulo{
+        width: 60%;
+    }
+
+    span{
+        font-size: 6rem;
+    }
+
+    .titulo h3{
+        font-size: 2.8rem;
+    }
+    .titulo h4{
+        font-size: 3.5rem;
+    }
+
+    .btn{
+        font-size: 2.7rem;
+    }
+
+    .imgPortada img{
+        width: 31rem;
+    }
+}
+
+@media(max-width:450px){
+
+    .inicio{
+        display: block;
+        height: 100%;
+        padding-bottom: 5rem;
+    }
+
+    .imgPortada{
+        display: flex;
+        justify-content: center;
+        margin-left: 3rem;
+        margin-top: 12rem;
+        margin-bottom: 4rem;
+    }
+
+    .imgPortada img{
+        width: 31rem;
+    }
+
+    .titulo{
+        width: 93%;
+    }
+
+    #maquina-escribir{
+        border-right: 6px solid var(--blanco);
+    }
+
+    span{
+        font-size: 5.2rem;
+        font-weight: 500;
+    }
+
+    .titulo h3{
+        font-size: 3.5rem;
+        font-weight: 300;
+    }
+
+    .titulo h4{
+        font-size: 2.8rem;
+    }
+}
+
+@media(max-width:395px){
+
+    .imgPortada img{
+        width: 28rem;
+    }
+
+}
+
+@media(max-width:360px){
+
+    span{
+        font-size: 5rem;
+        font-weight: 500;
+    }
+
+    .imgPortada img{
+        width: 24rem;
+    }
+    
+}
+
+@media(min-height:1024px){
+
+    .inicio{
+        display: block;
+        height: 100%;
+        padding-bottom: 5rem;
+    }
+
+    .imgPortada{
+        display: flex;
+        justify-content: center;
+        margin-top: 25rem;
+        margin-bottom: 4rem;
+        margin-left: 16rem;
+    }
+
+    .titulo{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

@@ -1,0 +1,25 @@
+.container-habilidades{
+    background-color: rgb(40, 40, 40, .8);
+    position: relative;
+    border-radius: .5rem;
+    box-shadow: 1rem 1rem 10px 1px rgb(0, 0, 0, .100);
+    margin-top: 1.2rem;
+    margin-bottom: 5rem;
+    padding: 4rem 0;  
+}
+
+.title-habiblidades{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: var(--blanco);
+}
+
+.habilidades-desarrollo{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+

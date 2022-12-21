@@ -1,7 +1,9 @@
+import React, { useEffect } from "react";
 import './App.css';
 import NavBar from './components/NavBar'
 import Inicio from './components/Inicio'
 import SobreMi from './components/SobreMi'
+import Habilidades from './components/Habilidades';
 import imagen from './imagenes/yeinthony2R.png';
 import imagen1 from './imagenes/yeinthony2.png';
 
@@ -16,6 +18,7 @@ function App() {
         parrafo1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nobis repellendus odio, minus nostrum molestias laborum molestiae laboriosam qui perferendis? Impedit et id veniam perferendis soluta accusamus reprehenderit sunt obcaecati!"
         parrafo2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nobis repellendus odio"
       />
+      <Habilidades />
     </div>
   );
 }

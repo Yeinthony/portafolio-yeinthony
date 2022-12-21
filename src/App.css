@@ -24,7 +24,7 @@
 
 html{
     font-size: 62.4%;
-    /* overflow: hidden; */
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -53,6 +53,10 @@ section{
     border-bottom: solid 2px rgba(0, 0, 0, .2);
 }
 
+/* .App{
+    visibility: hidden;
+} */
+
 @media(max-width:1200px){
   html{
       font-size: 55%;
@@ -68,3 +72,4 @@ section{
   }
 
 }
+
